@@ -1,0 +1,19 @@
+.textHidden {
+  opacity: 0;
+}
+.textVisible {
+  opacity: 1;
+}
+.backgroundColorInital {
+  background-color: initial;
+}
+.backgroundColorf2f2f2 {
+  background-color: var(--color-f2f2f2);
+}
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+  width: max-content;
+}

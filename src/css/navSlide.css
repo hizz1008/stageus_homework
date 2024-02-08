@@ -1,0 +1,119 @@
+.backgroundDivHidden {
+  display: none;
+  width: 100vw;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backgroundDivVisible {
+  display: block;
+  width: 100vw;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navSlideHidden {
+  display: flex;
+  flex-direction: column;
+
+  left: -100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  transition: left 0.5s ease-in-out;
+
+  background-color: white;
+  z-index: 2;
+}
+.navSlideVisible {
+  display: flex;
+  flex-direction: column;
+
+  left: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  transition: left 0.5s ease-in-out;
+
+  background-color: white;
+  z-index: 2;
+}
+.navSlideHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+
+  height: 70px;
+
+  margin-left: 15px;
+  margin-right: 74px;
+}
+#navSlideBtn {
+  font-size: 24px;
+
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  color: inherit;
+  align-items: center;
+
+  cursor: pointer;
+}
+.navSlideAnchor {
+  display: flex;
+}
+#navSlideLogo {
+  width: 100px;
+  object-fit: contain;
+  padding: 0 20px;
+}
+.navSlideSectionLogo {
+  display: flex;
+
+  align-items: center;
+
+  padding: 8px 0 8px 25px;
+
+  border-radius: 10px;
+
+  color: black;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  font-size: 24px;
+}
+.navSlideSectionLogo:hover {
+  background-color: var(--color-f2f2f2);
+}
+.navSlideSectionText {
+  font-size: 12px;
+  font-weight: 400;
+
+  padding-left: 30px;
+}
+#navSlideIcon {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

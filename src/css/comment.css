@@ -1,0 +1,25 @@
+.commentContainer{
+  width: 100%;
+  
+  display:flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+
+}
+.commentImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.commentInfo{
+  margin-left: 15px;
+}
+.commentUserName{
+  font-size: 12px;
+  font-weight: bold;
+}
+.commentText{
+  font-size: 14px;
+  font-weight: bold;
+}

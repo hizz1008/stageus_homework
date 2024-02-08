@@ -1,0 +1,128 @@
+/* article */
+.videoMain {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.videoArticle {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1 1 290px;
+
+  margin-right: 29px;
+  height: fit-content;
+
+  cursor: pointer;
+
+  position: relative;
+}
+.videoImgDiv {
+  display: flex;
+  width: 100%;
+
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.videoImg {
+  border-radius: 10px;
+  width: 100%;
+
+  transition: all 0.3s ease-in-out;
+}
+#videoUserImg {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.videoRunningTime {
+  color: white;
+
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+
+  opacity: 0.7;
+  font-size: 13px;
+}
+#dot {
+  display: none;
+  opacity: 0.8;
+
+  position: absolute;
+  right: 8px;
+
+  font-size: 18px;
+}
+.videoInfo {
+  display: flex;
+
+  margin: 11px 0;
+}
+.videoInfoText {
+  margin-left: 16px;
+}
+.videoTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.videoData {
+  margin: 0;
+  color: black;
+  opacity: 0.6;
+}
+.videoUserName {
+  margin: 8px 0 3px 0;
+  font-size: 13px;
+}
+.videoMetaData {
+  font-size: 13px;
+}
+
+.videoViewerComment {
+  padding: 0 20px;
+}
+.commentCount {
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 15px 0;
+}
+.currentUserComment {
+  margin-bottom: 15px;
+  display: flex;
+}
+.currentUserImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.currentUserCommentInput {
+  width: 100%;
+
+  border-bottom: 2px solid var(--color-cccccc);
+
+  margin-left: 15px;
+  padding-bottom: 5px;
+
+  transition: all 0.3s ease-in-out;
+}
+.currentUserCommentInput:focus {
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid black;
+}
+.commentMain {
+  margin-top: 40px;
+}

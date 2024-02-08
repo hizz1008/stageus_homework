@@ -1,0 +1,39 @@
+
+.uploaderInfo{
+  display: flex;
+  align-items: center;
+}
+.uploaderImg{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+.uploaderName{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+
+  cursor: pointer;
+}
+.subscriptionBtn{
+  width: 48px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: var(--color-f2f2f2);
+
+  cursor: pointer;
+}
+.subscriptionBtn:hover{
+  filter: brightness(90%);
+}
+.uploaderText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subscriptionNum{
+  margin: 0 10px;
+  font-size: 12px;
+}
